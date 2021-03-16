@@ -1,0 +1,32 @@
+
+Xcom.project.user.validator.Validator#validateName(Ljava/lang/String;)Ljava/lang/Boolean;U
+KC:/Users/Dell/HnMUJ/src/main/java/com/project/user/validator/Validator.java% %(#"3*»
+2U
+KC:/Users/Dell/HnMUJ/src/main/java/com/project/user/validator/Validator.java(
+ (("_
+U
+KC:/Users/Dell/HnMUJ/src/main/java/com/project/user/validator/Validator.java( ((
+""*ï
+3U
+KC:/Users/Dell/HnMUJ/src/main/java/com/project/user/validator/Validator.java& &(+™
+–
+U
+KC:/Users/Dell/HnMUJ/src/main/java/com/project/user/validator/Validator.java& &(,
+regexjava.lang.String"__id*
+[A-Za-z]+(\\s[A-Za-z]+)*îë
+U
+KC:/Users/Dell/HnMUJ/src/main/java/com/project/user/validator/Validator.java' '(
+%0boolean"-java.lang.String#matches(Ljava/lang/String;)Z*
+
+namejava.lang.String*
+
+regexjava.lang.String2matches(Ljava/lang/String;)*
+2
+1*»
+1U
+KC:/Users/Dell/HnMUJ/src/main/java/com/project/user/validator/Validator.java*	 *("_
+U
+KC:/Users/Dell/HnMUJ/src/main/java/com/project/user/validator/Validator.java* *(
+"":
+namejava.lang.StringB("&
+$com.project.user.validator.Validator

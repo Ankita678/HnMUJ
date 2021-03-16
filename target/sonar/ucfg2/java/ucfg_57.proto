@@ -1,0 +1,52 @@
+
+ncom.project.user.dto.WishlistDTO#valueOf(Lcom/project/user/entity/Wishlist;)Lcom/project/user/dto/WishlistDTO;Q
+GC:/Users/Dell/HnMUJ/src/main/java/com/project/user/dto/WishlistDTO.java# #(""1*€
+1Q
+GC:/Users/Dell/HnMUJ/src/main/java/com/project/user/dto/WishlistDTO.java$ $(-†ù
+Q
+GC:/Users/Dell/HnMUJ/src/main/java/com/project/user/dto/WishlistDTO.java$  $(+&
+%0 com.project.user.dto.WishlistDTO" com.project.user.dto.WishlistDTO≤
+Ø
+Q
+GC:/Users/Dell/HnMUJ/src/main/java/com/project/user/dto/WishlistDTO.java$ $(-
+%1"*com.project.user.dto.WishlistDTO#<init>()V*(
+&
+%0 com.project.user.dto.WishlistDTO∑
+¥
+Q
+GC:/Users/Dell/HnMUJ/src/main/java/com/project/user/dto/WishlistDTO.java$ $(./
+wishlistDTO com.project.user.dto.WishlistDTO"__id*(
+&
+%0 com.project.user.dto.WishlistDTOœÃ
+Q
+GC:/Users/Dell/HnMUJ/src/main/java/com/project/user/dto/WishlistDTO.java% %(.	
+%2int".com.project.user.entity.Wishlist#getBuyerId()I*.
+,
+wishlist com.project.user.entity.Wishlist2getBuyerId()‚ﬂ
+Q
+GC:/Users/Dell/HnMUJ/src/main/java/com/project/user/dto/WishlistDTO.java% %(/
+
+%3void"/com.project.user.dto.WishlistDTO#setBuyerId(I)V*1
+/
+wishlistDTO com.project.user.dto.WishlistDTO*
+	
+%2int2setBuyerId(I)Õ 
+Q
+GC:/Users/Dell/HnMUJ/src/main/java/com/project/user/dto/WishlistDTO.java& &(,	
+%4int"-com.project.user.entity.Wishlist#getProdId()I*.
+,
+wishlist com.project.user.entity.Wishlist2getProdId()‡›
+Q
+GC:/Users/Dell/HnMUJ/src/main/java/com/project/user/dto/WishlistDTO.java& &(-
+
+%5void".com.project.user.dto.WishlistDTO#setProdId(I)V*1
+/
+wishlistDTO com.project.user.dto.WishlistDTO*
+	
+%4int2setProdId(I)"Ü
+Q
+GC:/Users/Dell/HnMUJ/src/main/java/com/project/user/dto/WishlistDTO.java( ((1
+/
+wishlistDTO com.project.user.dto.WishlistDTO:,
+wishlist com.project.user.entity.WishlistB$""
+ com.project.user.dto.WishlistDTO

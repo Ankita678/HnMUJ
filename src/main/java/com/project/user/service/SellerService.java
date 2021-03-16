@@ -41,7 +41,7 @@ Logger logger = LoggerFactory.getLogger(this.getClass());
 	}
 	
 	public boolean sellerLogin(SellerLoginDTO sellerLoginDTO) throws Exception{
-		logger.info("Login request for seller {} with password {}", sellerLoginDTO.getEmail(),sellerLoginDTO.getPassword());
+		logger.info("Login request for seller {}", sellerLoginDTO);
 		Seller newSeller = sellerRepo.findByEmail(sellerLoginDTO.getEmail());
 		if (newSeller!=null) {
 			if (newSeller.getIsActive().equals("Y")) {			

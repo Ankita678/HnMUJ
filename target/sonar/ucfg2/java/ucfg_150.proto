@@ -1,0 +1,57 @@
+
+wcom.project.user.controller.WishlistController#removeFromWishlist(Lcom/project/user/dto/WishlistDTO;)Ljava/lang/String;_
+UC:/Users/Dell/HnMUJ/src/main/java/com/project/user/controller/WishlistController.java> >(!"1*É
+1_
+UC:/Users/Dell/HnMUJ/src/main/java/com/project/user/controller/WishlistController.java? ?(Â
+¿
+_
+UC:/Users/Dell/HnMUJ/src/main/java/com/project/user/controller/WishlistController.java? ?(
+%0org.slf4j.Logger"__id*>*<0
+.com.project.user.controller.WishlistController"
+loggeràÝ
+_
+UC:/Users/Dell/HnMUJ/src/main/java/com/project/user/controller/WishlistController.java?% ?(=	
+%1int".com.project.user.dto.WishlistDTO#getBuyerId()I*1
+/
+wishlistDTO com.project.user.dto.WishlistDTO2getBuyerId()ÞÛ
+_
+UC:/Users/Dell/HnMUJ/src/main/java/com/project/user/controller/WishlistController.java?> ?(U	
+%2int"-com.project.user.dto.WishlistDTO#getProdId()I*1
+/
+wishlistDTO com.project.user.dto.WishlistDTO2getProdId()ÌÉ
+_
+UC:/Users/Dell/HnMUJ/src/main/java/com/project/user/controller/WishlistController.java? ?(V
+
+%3void"Norg.slf4j.Logger#info(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V*
+
+%0org.slf4j.Logger*
+Remove from Wishlist*
+	
+%1int*
+	
+%2int2<info(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)ã
+à
+_
+UC:/Users/Dell/HnMUJ/src/main/java/com/project/user/controller/WishlistController.java@ @(.
+%4(com.project.user.service.WishlistService"__id*G*E0
+.com.project.user.controller.WishlistController"
+wishlistServiceåâ
+_
+UC:/Users/Dell/HnMUJ/src/main/java/com/project/user/controller/WishlistController.java@ @(,
+
+%5void"[com.project.user.service.WishlistService#removeProduct(Lcom/project/user/dto/WishlistDTO;)V*0
+.
+%4(com.project.user.service.WishlistService*1
+/
+wishlistDTO com.project.user.dto.WishlistDTO21removeProduct(Lcom/project/user/dto/WishlistDTO;)¹
+¶
+_
+UC:/Users/Dell/HnMUJ/src/main/java/com/project/user/controller/WishlistController.javaA A(B
+messagejava.lang.String"__id*0.
+,Product removed from wishlist Successfully!!"€
+_
+UC:/Users/Dell/HnMUJ/src/main/java/com/project/user/controller/WishlistController.javaB B(
+
+messagejava.lang.String:/
+wishlistDTO com.project.user.dto.WishlistDTOB20
+.com.project.user.controller.WishlistController

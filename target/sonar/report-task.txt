@@ -1,0 +1,7 @@
+organization=cricket
+projectKey=com.project.user:UserMS
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.18249
+dashboardUrl=https://sonarcloud.io/dashboard?id=com.project.user%3AUserMS
+ceTaskId=AXg74CNAM417CVGzkULo
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AXg74CNAM417CVGzkULo

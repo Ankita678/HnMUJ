@@ -34,7 +34,7 @@ public class SellerController {
 	
 	@PostMapping(value = "/api/seller/login",consumes = MediaType.APPLICATION_JSON_VALUE)
 	public String login(@RequestBody SellerLoginDTO sellerLoginDTO) throws Exception {
-		logger.info("Login request for Seller {} with password {}", sellerLoginDTO.getEmail(),sellerLoginDTO.getPassword());
+		logger.info("Login request for Seller {} ", sellerLoginDTO);
 		if(sellerService.sellerLogin(sellerLoginDTO)) {
 			return "Successful";
 		}

@@ -1,0 +1,109 @@
+
+rcom.project.user.controller.WishlistController#addToWishlist(Lcom/project/user/dto/WishlistDTO;)Ljava/lang/String;_
+UC:/Users/Dell/HnMUJ/src/main/java/com/project/user/controller/WishlistController.java& &("3*ê
+2_
+UC:/Users/Dell/HnMUJ/src/main/java/com/project/user/controller/WishlistController.java. .(ã
+à
+_
+UC:/Users/Dell/HnMUJ/src/main/java/com/project/user/controller/WishlistController.java. .(.
+%9(com.project.user.service.WishlistService"__id*G*E0
+.com.project.user.controller.WishlistController"
+wishlistServiceâß
+_
+UC:/Users/Dell/HnMUJ/src/main/java/com/project/user/controller/WishlistController.java. .(+
+%10void"Ycom.project.user.service.WishlistService#addWishlist(Lcom/project/user/dto/WishlistDTO;)V*0
+.
+%9(com.project.user.service.WishlistService*1
+/
+wishlistDTO com.project.user.dto.WishlistDTO2/addWishlist(Lcom/project/user/dto/WishlistDTO;)µ
+²
+_
+UC:/Users/Dell/HnMUJ/src/main/java/com/project/user/controller/WishlistController.java/ /(?
+messagejava.lang.String"__id*,*
+(Product added to wishlist Successfully!!"€
+_
+UC:/Users/Dell/HnMUJ/src/main/java/com/project/user/controller/WishlistController.java0 0(
+
+messagejava.lang.String*®
+3_
+UC:/Users/Dell/HnMUJ/src/main/java/com/project/user/controller/WishlistController.java' '(Â
+¿
+_
+UC:/Users/Dell/HnMUJ/src/main/java/com/project/user/controller/WishlistController.java' '(
+%0org.slf4j.Logger"__id*>*<0
+.com.project.user.controller.WishlistController"
+loggeràÝ
+_
+UC:/Users/Dell/HnMUJ/src/main/java/com/project/user/controller/WishlistController.java'1 '(I	
+%1int".com.project.user.dto.WishlistDTO#getBuyerId()I*1
+/
+wishlistDTO com.project.user.dto.WishlistDTO2getBuyerId()ÞÛ
+_
+UC:/Users/Dell/HnMUJ/src/main/java/com/project/user/controller/WishlistController.java'J '(a	
+%2int"-com.project.user.dto.WishlistDTO#getProdId()I*1
+/
+wishlistDTO com.project.user.dto.WishlistDTO2getProdId()×Ô
+_
+UC:/Users/Dell/HnMUJ/src/main/java/com/project/user/controller/WishlistController.java' '(b
+
+%3void"Norg.slf4j.Logger#info(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V*
+
+%0org.slf4j.Logger*#!
+Add product request to wishlist*
+	
+%1int*
+	
+%2int2<info(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)ÞÛ
+_
+UC:/Users/Dell/HnMUJ/src/main/java/com/project/user/controller/WishlistController.java( (("	
+%4int"-com.project.user.dto.WishlistDTO#getProdId()I*1
+/
+wishlistDTO com.project.user.dto.WishlistDTO2getProdId()³
+°
+_
+UC:/Users/Dell/HnMUJ/src/main/java/com/project/user/controller/WishlistController.java* *(<
+
+productUrijava.lang.String"__id*'%
+#http://localhost:8200/api/products/ÄÁ
+_
+UC:/Users/Dell/HnMUJ/src/main/java/com/project/user/controller/WishlistController.java+ +((1
+%5+org.springframework.web.client.RestTemplate"+org.springframework.web.client.RestTemplateÖ
+Ó
+_
+UC:/Users/Dell/HnMUJ/src/main/java/com/project/user/controller/WishlistController.java+ +(*
+%6"5org.springframework.web.client.RestTemplate#<init>()V*3
+1
+%5+org.springframework.web.client.RestTemplate°
+­
+_
+UC:/Users/Dell/HnMUJ/src/main/java/com/project/user/controller/WishlistController.java+8 +(E
+%7java.lang.String"__concat* 
+
+
+productUrijava.lang.String*
+""­ª
+_
+UC:/Users/Dell/HnMUJ/src/main/java/com/project/user/controller/WishlistController.java+ +(X%
+%8com.project.user.dto.ProductDTO"‚org.springframework.web.client.RestTemplate#getForObject(Ljava/lang/String;Ljava/lang/Class;[Ljava/lang/Object;)Ljava/lang/Object;*3
+1
+%5+org.springframework.web.client.RestTemplate*
+
+%7java.lang.String*
+""2DgetForObject(Ljava/lang/String;Ljava/lang/Class;[Ljava/lang/Object;)Â
+¿
+_
+UC:/Users/Dell/HnMUJ/src/main/java/com/project/user/controller/WishlistController.java+ +(Y-
+
+productDTOcom.project.user.dto.ProductDTO"__id*'
+%
+%8com.project.user.dto.ProductDTO*
+2
+1*â
+1_
+UC:/Users/Dell/HnMUJ/src/main/java/com/project/user/controller/WishlistController.java2
+ 2(!"|
+_
+UC:/Users/Dell/HnMUJ/src/main/java/com/project/user/controller/WishlistController.java2 2("
+No such product found:/
+wishlistDTO com.project.user.dto.WishlistDTOB20
+.com.project.user.controller.WishlistController
