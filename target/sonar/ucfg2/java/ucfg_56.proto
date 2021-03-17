@@ -1,39 +1,0 @@
-
-Qcom.project.user.dto.WishlistDTO#createEntity()Lcom/project/user/entity/Wishlist;Q
-GC:/Users/Dell/HnMUJ/src/main/java/com/project/user/dto/WishlistDTO.java ("1*£	
-1Q
-GC:/Users/Dell/HnMUJ/src/main/java/com/project/user/dto/WishlistDTO.java ($†ù
-Q
-GC:/Users/Dell/HnMUJ/src/main/java/com/project/user/dto/WishlistDTO.java ("&
-%0 com.project.user.entity.Wishlist" com.project.user.entity.Wishlist≤
-Ø
-Q
-GC:/Users/Dell/HnMUJ/src/main/java/com/project/user/dto/WishlistDTO.java ($
-%1"*com.project.user.entity.Wishlist#<init>()V*(
-&
-%0 com.project.user.entity.Wishlist¥
-±
-Q
-GC:/Users/Dell/HnMUJ/src/main/java/com/project/user/dto/WishlistDTO.java (%,
-wishlist com.project.user.entity.Wishlist"__id*(
-&
-%0 com.project.user.entity.Wishlist⁄◊
-Q
-GC:/Users/Dell/HnMUJ/src/main/java/com/project/user/dto/WishlistDTO.java (#
-
-%2void"/com.project.user.entity.Wishlist#setBuyerId(I)V*.
-,
-wishlist com.project.user.entity.Wishlist*
-""2setBuyerId(I)ÿ’
-Q
-GC:/Users/Dell/HnMUJ/src/main/java/com/project/user/dto/WishlistDTO.java (!
-
-%3void".com.project.user.entity.Wishlist#setProdId(I)V*.
-,
-wishlist com.project.user.entity.Wishlist*
-""2setProdId(I)"É
-Q
-GC:/Users/Dell/HnMUJ/src/main/java/com/project/user/dto/WishlistDTO.java   (.
-,
-wishlist com.project.user.entity.WishlistB$"
- com.project.user.dto.WishlistDTO
